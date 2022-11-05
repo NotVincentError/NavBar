@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding-bottom: 1vh;
+}
+
+body{
+    background: linear-gradient(skyblue, purple);
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 768px) {
+.container{
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+nav ul li a{
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border-radius: 2vh;
+    font-size: 20px;
+    color: rgb(255, 205, 4);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
+.Logo{
+    border: solid 3px rebeccapurple;
+    border-radius: 25px;
+    color: white;
+    background-color: rebeccapurple;
+    font-family: cursive;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.Logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: gray;
+    transition: 2s;
+}
+
+p{
+    border: solid saddlebrown 5px;
+    background-color: brown;
+    color: aliceblue;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 3vh;
+    margin-inline-end: 3vh;
+    font-size: 3vh;
+    border-radius: 5vh;
+    text-align: center;
+}
+
+p:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: rgba(2, 128, 0, 0.674);
+    transform: 3s;
+}
+
+}
